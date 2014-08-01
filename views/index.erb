@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Tweet App</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <h1 id="hey">Ben's Website</h1>
+  <h2 id="news">Daily Joke</h2>
+  <p> <%= @today_joke.daily_joke%><p>
+
+  
+  <BR>
+    <BR>
+      <BR><BR><BR><BR><BR>
+  <h2>
+    <%= @news.title %>
+  </h2>
+  <a href=<%= @news.url %> target="_blank">
+    <img src=<%=@news.image %>>
+  </a>
+  
+  
+</body>
+</html>
+
